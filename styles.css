@@ -1,7 +1,7 @@
 /* Mixins
 =============================================*/
 body {
-  background: #0e294e;
+  background: #000;
 }
 
 #hud {
@@ -9,8 +9,10 @@ body {
   max-height: 350px;
   max-width: 350px;
   z-index: 1;
-  left: 50%;
-  position: fixed;
+  /* left: 50%; */
+  /* position: fixed; */
+  left: 250px;
+  position: absolute;
   top: 50%;
   width: 100%;
   -webkit-transition: all 1s ease-in-out;
@@ -130,7 +132,7 @@ body {
   -o-animation: none;
   animation: none;
 }
-#hud:before {
+/* #hud:before {
   content: ' ';
   top: 50%;
   left: 50%;
@@ -149,7 +151,7 @@ body {
   -ms-box-shadow: 0 0 1000px 200px rgba(70, 131, 176, 0.3);
   -o-box-shadow: 0 0 1000px 200px rgba(70, 131, 176, 0.3);
   box-shadow: 0 0 1000px 200px rgba(70, 131, 176, 0.3);
-}
+} */
 #hud svg {
   opacity: 1;
   overflow: visible;
