@@ -7,10 +7,10 @@ body {
 .control-panel {
   margin: auto;
   position: absolute;
-  top: 32px;
+  top: 37px;
   left: 0;
   bottom: 0;
-  right: -530px;
+  right: -550px;
   color: #fff;
   justify-content: center;
   display: grid;
