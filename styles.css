@@ -29,7 +29,23 @@ body {
 }
 
 .active-box {
+  background-color: #000;
+}
+
+.active-box.active {
   background-color: orange;
+}
+
+.active-data {
+  color: #fff;
+  font-size: 10rem;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+.active-data.hidden {
+  visibility: hidden;
 }
 
 #hud {

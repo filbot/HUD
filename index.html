@@ -143,9 +143,7 @@
 
     <div class="control-panel">
       <div class="active-box one"></div>
-      <div class="control one">
-        <div class="text">TEMP</div>
-      </div>
+      <div class="control one">TEMP</div>
       <div class="control two">AQI</div>
       <div class="active-box two"></div>
       <div class="active-box three"></div>
@@ -158,6 +156,8 @@
       <div class="active-box six"></div>
     </div>
 
+    <div class="active-data hidden">78°</div>
+
     <!-- <ul class="movement buttons">
         <li><a href="#" data-type="">Reset</a></li>
         <li><a href="#" data-type="loading">Loading</a></li>
@@ -166,11 +166,12 @@
       </ul> -->
   </body>
   <script>
-    document.getElementsByTagName('a').on('click', function () {
-      var type = $(this).data('type');
-      $('#hud').removeClass().addClass(type);
-
-      return false;
+    const BtnOne = document.getElementsByClassName('control one');
+    const ToggleOne = document.getElementsByClassName('active-box one');
+    const ToggleData = document.getElementsByClassName('active-data');
+    BtnOne[0].addEventListener('click', (event) => {
+      ToggleOne[0].classList.add('active');
+      ToggleData[0].classList.remove('hidden');
     });
   </script>
 </html>
