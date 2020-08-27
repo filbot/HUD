@@ -7,15 +7,15 @@ body {
 .control-panel {
   margin: auto;
   position: absolute;
-  top: 140px;
+  top: 70px;
   left: 0;
   bottom: 0;
   right: -500px;
   color: #fff;
   justify-content: center;
   display: grid;
-  grid-template-columns: 100px 100px 100px 100px;
-  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 20px 150px 150px 20px;
+  grid-template-rows: 150px 150px 150px;
   column-gap: 10px;
   row-gap: 10px;
 }
