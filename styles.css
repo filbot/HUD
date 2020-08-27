@@ -15,7 +15,7 @@ body {
   justify-content: center;
   display: grid;
   grid-template-columns: 20px 125px 125px 20px;
-  grid-template-rows: 175px 175px 175px;
+  grid-template-rows: 165px 165px 165px;
   column-gap: 10px;
   row-gap: 10px;
 }
@@ -34,12 +34,12 @@ body {
 
 #hud {
   height: 100%;
-  max-height: 400px;
-  max-width: 400px;
+  max-height: 500px;
+  max-width: 500px;
   z-index: 1;
   /* left: 50%; */
   /* position: fixed; */
-  left: 300px;
+  left: 275px;
   position: absolute;
   top: 50%;
   width: 100%;
