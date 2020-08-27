@@ -28,10 +28,6 @@ body {
   align-items: center;
 }
 
-.control .text {
-  /* text-align: center; */
-}
-
 .active-box {
   background-color: orange;
 }
