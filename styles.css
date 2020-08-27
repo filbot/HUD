@@ -7,10 +7,10 @@ body {
 .control-panel {
   margin: auto;
   position: absolute;
-  top: 30px;
+  top: 32px;
   left: 0;
   bottom: 0;
-  right: -520px;
+  right: -530px;
   color: #fff;
   justify-content: center;
   display: grid;
@@ -41,7 +41,7 @@ body {
   /* position: fixed; */
   left: 280px;
   position: absolute;
-  top: 46%;
+  top: 48%;
   width: 100%;
   -webkit-transition: all 1s ease-in-out;
   -sand-transition: all 1s ease-in-out;
