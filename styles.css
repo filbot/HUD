@@ -23,10 +23,13 @@ body {
 .control {
   /* background-color: #fff; */
   border: 3px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .control .text {
-  place-self: center;
+  /* text-align: center; */
 }
 
 .active-box {
@@ -213,12 +216,12 @@ body {
   -ms-transform: translate(1px, 0);
   -o-transform: translate(1px, 0);
   transform: translate(1px, 0);
-  -webkit-animation: hud_pulsate 2s infinite ease-in-out;
+  /* -webkit-animation: hud_pulsate 2s infinite ease-in-out;
   -sand-animation: hud_pulsate 2s infinite ease-in-out;
   -moz-animation: hud_pulsate 2s infinite ease-in-out;
   -ms-animation: hud_pulsate 2s infinite ease-in-out;
   -o-animation: hud_pulsate 2s infinite ease-in-out;
-  animation: hud_pulsate 2s infinite ease-in-out;
+  animation: hud_pulsate 2s infinite ease-in-out; */
 }
 #hud svg .glow-img {
   -webkit-transform-origin: 50% 50%;
