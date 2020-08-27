@@ -10,12 +10,12 @@ body {
   top: 30px;
   left: 0;
   bottom: 0;
-  right: -500px;
+  right: -520px;
   color: #fff;
   justify-content: center;
   display: grid;
-  grid-template-columns: 20px 125px 125px 20px;
-  grid-template-rows: 165px 165px 165px;
+  grid-template-columns: 20px 120px 120px 20px;
+  grid-template-rows: 170px 170px 170px;
   column-gap: 10px;
   row-gap: 10px;
 }
@@ -39,9 +39,9 @@ body {
   z-index: 1;
   /* left: 50%; */
   /* position: fixed; */
-  left: 275px;
+  left: 280px;
   position: absolute;
-  top: 50%;
+  top: 46%;
   width: 100%;
   -webkit-transition: all 1s ease-in-out;
   -sand-transition: all 1s ease-in-out;
